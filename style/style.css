@@ -5,6 +5,10 @@ html
 { margin: 0;
   padding: 0;}
 
+ * {
+	 box-sizing: border-box;
+ } 
+  
 body
 { font: normal .80em 'trebuchet ms', arial, sans-serif;
   background: #F0EFE2 url(background.png) repeat;
@@ -15,7 +19,8 @@ p
   line-height: 1.7em;}
 
 img
-{ border: 0;}
+{ max-width:75%;
+}
 
 h1, h2, h3, h4, h5, h6 
 { font: normal 175% 'century gothic', arial, sans-serif;
@@ -183,7 +188,10 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 { text-align: left;
   float: left;
   width: 595px;
-  padding: 0;}
+  padding: 0;
+ }
+ 
+
 
 #content ul
 { margin: 2px 0 22px 0px;}
